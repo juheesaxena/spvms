@@ -1,4 +1,7 @@
 package com.spvms.spvms.repository;
 
-public class VendorRepository {
+import com.spvms.spvms.models.Vendor;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface VendorRepository extends JpaRepository<Vendor, Long> {
 }
